@@ -12,3 +12,13 @@ Members of the team were:
 Here are some screenshots of the program:
 
 ![Alt text](/Screenshots/AnaProcessExplorer_Details.jpg?raw=true "Ana Process Explorer")
+
+![Alt text](/Screenshots/AnaProcessExplorer_General2.jpg?raw=true "Ana Process Explorer")
+
+![Alt text](/Screenshots/AnaProcessExplorer_Graphs.jpg?raw=true "Ana Process Explorer")
+
+![Alt text](/Screenshots/AnaProcessExplorer_Modules.jpg?raw=true "Ana Process Explorer")
+
+![Alt text](/Screenshots/AnaProcessExplorer_SysInfo.jpg?raw=true "Ana Process Explorer")
+
+![Alt text](/Screenshots/AnaProcessExplorer_Threads.jpg?raw=true "Ana Process Explorer")
