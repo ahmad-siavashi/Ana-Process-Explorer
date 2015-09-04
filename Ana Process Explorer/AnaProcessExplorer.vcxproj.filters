@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\TUI">
+      <UniqueIdentifier>{574a748c-7552-434e-9c13-d79abd0e1cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TUI\DrawTools">
+      <UniqueIdentifier>{eb341dd1-80f0-4654-96d5-69a057fc4ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TUI\Draws">
+      <UniqueIdentifier>{7a2f082f-0f93-42e0-97fc-1562b95ed259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TUI_Headers">
+      <UniqueIdentifier>{69defef1-8c39-40af-8800-fd9bcf9528fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{afde85db-ae02-48a0-9ccb-55ed3000d83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreHeaders">
+      <UniqueIdentifier>{49cb9f35-cf5e-4a94-9ff1-eb8cc9f161d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicParts.c">
+      <Filter>Source Files\TUI\Draws</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticParts.c">
+      <Filter>Source Files\TUI\Draws</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTools.c">
+      <Filter>Source Files\TUI\DrawTools</Filter>
+    </ClCompile>
+    <ClCompile Include="StartApplication.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTools.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GetModulesList.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GetProcessList.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GetThreadsList.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessTools.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTools.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsOutPutTranslator.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.c">
+      <Filter>Source Files\TUI\Draws</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.c">
+      <Filter>Source Files\TUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnaMainHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticParts.h">
+      <Filter>Header Files\TUI_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawTools.h">
+      <Filter>Header Files\TUI_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicParts.h">
+      <Filter>Header Files\TUI_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnaCoreMainHeader.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTools.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GetModulesList.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GetProcessList.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GetThreadsList.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadTools.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessTools.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StartApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\TUI_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files\TUI_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsOutPutTranslator.h">
+      <Filter>Header Files\CoreHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VERSION_INFO.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
