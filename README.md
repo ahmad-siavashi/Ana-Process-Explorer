@@ -10,3 +10,5 @@ Members of the team were:
 - Mohammad Javad Moein
 
 Here are some screenshots of the program:
+
+![Alt text](/Screenshots/AnaProcessExplorer_Details.jpg?raw=true "Ana Process Explorer")
